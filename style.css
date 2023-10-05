@@ -1,0 +1,145 @@
+#head{
+  align-items: center;
+  margin-left: 600px;
+  padding: 10px;
+}
+
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3F72AF;
+  flex-direction: row-reverse;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #ddd;
+  }
+
+  .search-bar {
+    display: inline-block;
+    align-items: center;
+    background-color: #3F72AF;
+    border-radius: 10%;
+    padding: 1px;
+    margin-right: 20px;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.3);
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    border: 1px;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    background-color: #3F72AF;
+    color: #ffffff;
+    border: none;
+    border-radius: 30%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#search-bar-2 {
+  display: flex;
+  justify-content: center; /* centers the input fields horizontally */
+  align-items: center; /* centers the input fields vertically */
+  background-color: #f5f5f5;
+  margin-top: -712px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  padding: 10px;
+  position:sticky;
+}
+
+#search-bar-2 input[type="text"] {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  width: 200px;
+  margin: 0 10px;
+  padding: 10px 5px;
+  outline: none; 
+}
+
+#search-bar-2 input[type="text"]::placeholder {
+  color: #a7a7a7;
+}
+
+#search-bar-2 input[type="text"]:focus {
+  border-bottom: 2px solid #007bff;
+}
+
+#centerline{
+  font-weight: bolder;
+  font-size: 19px;
+  color: darkred;
+}
+
+
+
+#boody{
+  background-image: url("bus22.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 130vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#service{
+  align-items: center;
+  text-align: center;
+}
+
+#service-class{
+  display: flex;
+  justify-content: space-around;
+  padding: 1px;
+  cursor: pointer;
+  
+}
+
+#service h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+
+#footerr{
+  display: flex;
+  background-color: #007bff;
+  margin-top: 100px;
+
+}
+
+#footerr p{
+  margin-left: 760px;
+  margin-bottom: 6px;
+}
+

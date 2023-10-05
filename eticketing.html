@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KSRTC Official</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: left;
+    }
+    h2 {
+      text-align: center;
+    }
+    label {
+      display: block;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="date"],
+    input[type="time"],
+    input[type="number"] {
+      padding: 10px;
+      width: 100%;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+    input[type="button"] {
+      padding: 12px;
+      width: 100px;
+      cursor: pointer;
+      background: #799be6;
+      color: white;
+      transition: .5s ease;
+      border-radius: 5px;
+      border: none;
+    }
+    input[type="button"]:hover {
+      background: transparent;
+      border: 2px solid #799be6;
+      box-shadow: 0 0 10px 0 #799be6 inset,
+                  0 0 10px 4px #799be6;
+      border-radius: 5px;
+    }
+    input[type="reset"] {
+      margin-left: 20px;
+      padding: 12px;
+      width: 100px;
+      cursor: pointer;
+      background: #ccc;
+      color: black;
+      transition: .5s ease;
+      border-radius: 5px;
+      border: none;
+    } 
+    input[type="reset"]:hover {
+      background: transparent;
+      border: 2px solid #ccc;
+      box-shadow: 0 0 10px 0 #ccc inset,
+                  0 0 10px 4px #ccc;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>TICKET BOOKING</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    
+    <label for="date">Date of Journey:</label>
+    <input type="date" id="date" name="date">
+    
+    <label for="place">From:</label>
+    <input type="text" id="place" name="place">
+    
+    <label for="placeend">To:</label>
+    <input type="text" id="placeend" name="placeend">
+    
+    <label for="time">Time of Travel:</label>
+    <input type="time" id="time" name="time">
+    
+    <label for="no">No. of Passengers:</label>
+    <input type="number" id="no" name="no">
+    
+    <button type="submit">Submit</button>
+    <input type="reset" value="Reset">
+  </form>  
+</body>
+</html>
